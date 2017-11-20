@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka_client/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/serice_feign/pom.xml" />
       </list>
     </option>
   </component>

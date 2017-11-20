@@ -34,6 +34,7 @@
         <module>eureka_server</module>
         <module>eureka_client</module>
         <module>service-ribbon</module>
+        <module>service_feign</module>
     </modules>
 
     <dependencies>

@@ -12,7 +12,7 @@ import ysq.com.serviceribbon.service.HelloService;
  * @Date: 2017/11/20 17:04
  */
 @RestController
-public class HelloControler {
+public class HelloController {
     @Autowired
     HelloService helloServiceImpl;
 
