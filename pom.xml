@@ -18,7 +18,10 @@
     <name>ysq_springcloud</name>
     <url>http://maven.apache.org</url>
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <spring-cloud.version>Dalston.SR4</spring-cloud.version>
     </properties>
     <description>阿里私服镜像</description>
     <repositories>
@@ -30,6 +33,7 @@
     <modules>
         <module>eureka_server</module>
         <module>eureka_client</module>
+        <module>service-ribbon</module>
     </modules>
 
     <dependencies>
