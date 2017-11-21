@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka_client/eureka_client.iml" filepath="$PROJECT_DIR$/eureka_client/eureka_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/service_feign/service_feign.iml" filepath="$PROJECT_DIR$/service_feign/service_feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/ysq_springcloud.iml" filepath="$PROJECT_DIR$/ysq_springcloud.iml" />
     </modules>

@@ -8,18 +8,17 @@
         <artifactId>ysq_springcloud</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <artifactId>service_feign</artifactId>
+    <artifactId>service-zuul</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>service_feign</name>
-    <description>service_feign</description>
+    <name>service-zuul</name>
+    <description>service-zuul</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
         </dependency>
     </dependencies>
 </project>

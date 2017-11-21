@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c074a36-e48b-4369-a8d2-d60dd8430632" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_3_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/feign/hystric/FeignServiceHiHystric.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zuul_1_3_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka_client/pom.xml" afterPath="$PROJECT_DIR$/eureka_client/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka_server/pom.xml" afterPath="$PROJECT_DIR$/eureka_server/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-ribbon/pom.xml" afterPath="$PROJECT_DIR$/service-ribbon/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/ServiceRibbonApplication.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/ServiceRibbonApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/service/HelloService.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/service/HelloService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/service/impl/HelloServiceImpl.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/service/impl/HelloServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/ServiceFeignApplication.java" afterPath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/ServiceFeignApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/feign/FeignServiceHi.java" afterPath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/feign/FeignServiceHi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service_feign/pom.xml" afterPath="$PROJECT_DIR$/service_feign/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +23,7 @@
     <ignored path="$PROJECT_DIR$/service-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/serice_feign/target/" />
     <ignored path="$PROJECT_DIR$/service_feign/target/" />
+    <ignored path="$PROJECT_DIR$/service-zuul/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,24 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServiceFeignApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/ServiceFeignApplication.java">
+      <file leaf-file-name="ServiceRibbonApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/ServiceRibbonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="114">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -62,18 +46,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service_feign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service_feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="209">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -111,15 +85,12 @@
         <option value="$PROJECT_DIR$/eureka_server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka_server/src/test/java/ysq/com/eureka_server/EurekaServerApplicationTests.java" />
         <option value="$PROJECT_DIR$/eureka_client/src/test/java/ysq/com/eureka_client/EurekaClientApplicationTests.java" />
-        <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka_client/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml" />
         <option value="D:/mymaven/myrlib/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/client/RestTemplate.class" />
         <option value="$PROJECT_DIR$/eureka_client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka_client/src/main/java/ysq/com/eureka_client/controller/HiController.java" />
         <option value="$PROJECT_DIR$/eureka_client/src/main/java/ysq/com/eureka_client/EurekaClientApplication.java" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/controller/HelloControler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/serice_feign/pom.xml" />
         <option value="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/feign/SchedualServiceHi.java" />
         <option value="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/controller/HiController.java" />
@@ -135,7 +106,11 @@
         <option value="$PROJECT_DIR$/service_feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/ServiceFeignApplication.java" />
         <option value="$PROJECT_DIR$/service_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_client/pom.xml" />
       </list>
     </option>
   </component>
@@ -189,7 +164,45 @@
             <path>
               <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="service-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serice_feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service_feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -228,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceFeignApplication">
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ysq.com.eureka_client.EurekaClientApplication" />
@@ -273,6 +286,12 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ysq.com.serviceribbon.ServiceRibbonApplication" />
       <module name="service-ribbon" />
+      <envs />
+    </configuration>
+    <configuration name="ServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ysq.com.servicezuul.ServiceZuulApplication" />
+      <module name="service-zuul" />
       <envs />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -356,13 +375,14 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceRibbonApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.SericeFeignApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.SericeFeignApplication (1)" />
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.ServiceFeignApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.ServiceZuulApplication" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -384,12 +404,12 @@
       <workItem from="1511157075207" duration="1692000" />
       <workItem from="1511158809381" duration="4935000" />
       <workItem from="1511164793798" duration="7747000" />
-      <workItem from="1511236603809" duration="1541000" />
+      <workItem from="1511236603809" duration="4151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20127000" />
+    <option name="totallyTimeSpent" value="22737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -413,9 +433,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33949944" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33949944" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18496802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -443,14 +463,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka_server/src/main/java/ysq/com/eureka_server/EurekaServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service_feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -628,22 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/mymaven/myrlib/org/springframework/spring-web/4.3.12.RELEASE/spring-web-4.3.12.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -685,13 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -765,24 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/ServiceRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/service/impl/HelloServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -814,26 +785,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        <state relative-caret-position="736">
+          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service_feign/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="437">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka_client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/ServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service_feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="209">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding />
         </state>
       </provider>
