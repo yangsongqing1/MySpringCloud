@@ -1,0 +1,12 @@
+server:
+  port: 8769
+
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: peer2
+    #preferIpAddress: true通过ip来发现
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer3:8770/eureka/
