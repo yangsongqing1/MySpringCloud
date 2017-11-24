@@ -43,6 +43,7 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>server-zipkin</module>
+        <module>service-mybatis</module>
     </modules>
 
     <dependencies>
