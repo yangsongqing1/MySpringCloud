@@ -2,53 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c074a36-e48b-4369-a8d2-d60dd8430632" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/Base/BaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MyBatisMapperScannerConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/SuperMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/controller/UserController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/mapper/UserMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/pojo/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/service/UserService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/service/impl/UserServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service-mybatis/src/main/resources/mapper/UserMapper.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_5.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-mybatis/pom.xml" afterPath="$PROJECT_DIR$/service-mybatis/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-mybatis/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-mybatis/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka_client/src/main/java/ysq/com/eureka_client/EurekaClientApplication.java" afterPath="$PROJECT_DIR$/eureka_client/src/main/java/ysq/com/client/EurekaClientApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka_client/src/main/java/ysq/com/eureka_client/controller/HiController.java" afterPath="$PROJECT_DIR$/eureka_client/src/main/java/ysq/com/client/controller/HiController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka_client/src/test/java/ysq/com/eureka_client/EurekaClientApplicationTests.java" afterPath="$PROJECT_DIR$/eureka_client/src/test/java/ysq/com/client/EurekaClientApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka_server/src/main/java/ysq/com/eureka_server/EurekaServerApplication.java" afterPath="$PROJECT_DIR$/eureka_server/src/main/java/ysq/com/server/EurekaServerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/eureka_server/src/test/java/ysq/com/eureka_server/EurekaServerApplicationTests.java" afterPath="$PROJECT_DIR$/eureka_server/src/test/java/ysq/com/server/EurekaServerApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-zipkin/src/main/java/ysq/com/serverzipkin/ServerZipkinApplication.java" afterPath="$PROJECT_DIR$/server-zipkin/src/main/java/ysq/com/zipkin/ServerZipkinApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/server-zipkin/src/test/java/ysq/com/serverzipkin/ServerZipkinApplicationTests.java" afterPath="$PROJECT_DIR$/server-zipkin/src/test/java/ysq/com/zipkin/ServerZipkinApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/servicemybatis/ServiceMybatisApplication.java" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/ServiceMybatisApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-mybatis/src/test/java/ysq/com/servicemybatis/ServiceMybatisApplicationTests.java" afterPath="$PROJECT_DIR$/service-mybatis/src/test/java/ysq/com/app/ServiceMybatisApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/ServiceRibbonApplication.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/ribbon/ServiceRibbonApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/controller/HelloController.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/ribbon/controller/HelloController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/service/HelloService.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/ribbon/service/HelloService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/serviceribbon/service/impl/HelloServiceImpl.java" afterPath="$PROJECT_DIR$/service-ribbon/src/main/java/ysq/com/ribbon/service/impl/HelloServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-ribbon/src/test/java/ysq/com/serviceribbon/ServiceRibbonApplicationTests.java" afterPath="$PROJECT_DIR$/service-ribbon/src/test/java/ysq/com/ribbon/ServiceRibbonApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-zuul/src/main/java/ysq/com/servicezuul/MyFilter.java" afterPath="$PROJECT_DIR$/service-zuul/src/main/java/ysq/com/zuul/MyFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-zuul/src/main/java/ysq/com/servicezuul/ServiceZuulApplication.java" afterPath="$PROJECT_DIR$/service-zuul/src/main/java/ysq/com/zuul/ServiceZuulApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service-zuul/src/test/java/ysq/com/servicezuul/ServiceZuulApplicationTests.java" afterPath="$PROJECT_DIR$/service-zuul/src/test/java/ysq/com/zuul/ServiceZuulApplicationTests.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/ServiceFeignApplication.java" afterPath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/feign/ServiceFeignApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/controller/HiController.java" afterPath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/feign/controller/HiController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/feign/FeignServiceHi.java" afterPath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/feign/feign/FeignServiceHi.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/serice_feign/feign/hystric/FeignServiceHiHystric.java" afterPath="$PROJECT_DIR$/service_feign/src/main/java/ysq/com/feign/feign/hystric/FeignServiceHiHystric.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/service_feign/src/test/java/ysq/com/serice_feign/SericeFeignApplicationTests.java" afterPath="$PROJECT_DIR$/service_feign/src/test/java/ysq/com/feign/SericeFeignApplicationTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/service/impl/UserServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,15 +33,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/service-mybatis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="418">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,10 +71,32 @@
         <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/Base/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisAutoConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1591">
+              <caret line="94" column="49" lean-forward="false" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageHelper.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mymaven/myrlib/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/PageHelper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,46 +104,19 @@
       <file leaf-file-name="PageMethod.class" pinned="false" current-in-tab="false">
         <entry file="jar://D:/mymaven/myrlib/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/page/PageMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="114">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyBatisMapperScannerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MyBatisMapperScannerConfig.java">
+      <file leaf-file-name="Dialect.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mymaven/myrlib/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/Dialect.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisAutoConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SqlSessionFactoryBean.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/mymaven/myrlib/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="43" />
-              <folding>
-                <element signature="e#3823#3824#0" expanded="true" />
-                <element signature="e#3861#3862#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,20 +140,6 @@
               <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -254,7 +207,6 @@
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/servicemybatis/Config/MyMapper.java" />
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/servicemybatis/Config/Mapper.java" />
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/servicemybatis/Config/SuperMapper.java" />
-        <option value="$PROJECT_DIR$/service-mybatis/pom.xml" />
         <option value="D:/mymaven/myrlib/com/alibaba/druid/1.0.31/druid-1.0.31.jar!/com/alibaba/druid/pool/DruidDataSource.class" />
         <option value="$PROJECT_DIR$/service-mybatis/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/servicemybatis/Config/MybatisAutoConfiguration.java" />
@@ -272,9 +224,10 @@
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/controller/UserController.java" />
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/service/UserService.java" />
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/pojo/User.java" />
-        <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/Base/BaseService.java" />
+        <option value="$PROJECT_DIR$/service-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java" />
       </list>
     </option>
   </component>
@@ -293,7 +246,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="175" />
     <option name="y" value="11" />
     <option name="width" value="1400" />
@@ -770,15 +723,15 @@
       <workItem from="1511314360771" duration="2230000" />
       <workItem from="1511317279484" duration="9346000" />
       <workItem from="1511336115608" duration="5080000" />
-      <workItem from="1511836437399" duration="12467000" />
+      <workItem from="1511836437399" duration="14235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68831000" />
+    <option name="totallyTimeSpent" value="70599000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -791,7 +744,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3677911" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3677911" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -829,20 +782,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/service-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server-zipkin/src/main/java/ysq/com/zipkin/ServerZipkinApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service-ribbon/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1018,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="75" column="11" lean-forward="false" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/javax/sql/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1131,7 +1062,7 @@
         <state relative-caret-position="266">
           <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1186,24 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/mymaven/myrlib/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/page/PageMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MyBatisMapperScannerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/mymaven/myrlib/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -1223,10 +1136,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MyBatisMapperScannerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+        <state relative-caret-position="170">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1236,21 +1149,63 @@
     <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/Base/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/mymaven/myrlib/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/Dialect.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mymaven/myrlib/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/page/PageMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mymaven/myrlib/com/github/pagehelper/pagehelper/5.1.2/pagehelper-5.1.2.jar!/com/github/pagehelper/PageHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="67" column="26" lean-forward="false" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="418">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-mybatis/src/main/java/ysq/com/app/config/MybatisAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1591">
+          <caret line="94" column="49" lean-forward="false" selection-start-line="94" selection-start-column="49" selection-end-line="94" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

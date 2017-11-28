@@ -23,9 +23,8 @@ public class UserServiceImpl extends BaseService implements UserService {
 
     @Override
     public List<User> findByName(String name) {
-        PageHelper.startPage(1, 3);
+        PageHelper.startPage(1, 4);
         List<User> list = userMapper.findByName(name);
-        userMapper.selectAll();
         return list;
     }
 
