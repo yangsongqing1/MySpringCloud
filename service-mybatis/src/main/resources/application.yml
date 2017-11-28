@@ -1,3 +1,4 @@
+#注册中心
 eureka:
   client:
     serviceUrl:
@@ -5,6 +6,7 @@ eureka:
 server:
   port: 8800
 
+#spring及数据源配置
 spring:
   application:
       name: service-mybatis
@@ -31,6 +33,11 @@ spring:
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
 
+#mybatis配置
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: ysq.com.app.pojo
+
+#log配置
+logging:
+  file: log.log

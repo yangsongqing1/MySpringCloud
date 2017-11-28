@@ -23,6 +23,7 @@ public class UserServiceImpl extends BaseService implements UserService {
 
     @Override
     public List<User> findByName(String name) {
+        log.info("分页查询user");
         PageHelper.startPage(1, 4);
         List<User> list = userMapper.findByName(name);
         return list;
