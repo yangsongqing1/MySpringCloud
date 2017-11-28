@@ -1,4 +1,13 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8800
+
 spring:
+  application:
+      name: service-mybatis
   datasource:
     name: ysq-test
     url: jdbc:mysql://192.168.9.18:3306/test_jz_monitor?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
@@ -21,3 +30,7 @@ spring:
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: ysq.com.app.pojo

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="ysq.com.app.mapper.UserMapper">
+    <resultMap id="baseResultMap" type="user">
+        <result column="userAddress" property="userAddress" jdbcType="VARCHAR"/>
+        <result column="chainId" property="chainId" jdbcType="VARCHAR"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="departmentId" property="departmentId" jdbcType="VARCHAR"/>
+        <result column="account" property="account" jdbcType="VARCHAR"/>
+        <result column="ownerAddr" property="ownerAddr" jdbcType="VARCHAR"/>
+    </resultMap>
+    <sql id="baseSql">
+        userAddress,chainId,name,departmentId,account,ownerAddr
+    </sql>
+    <select id="findByName" resultMap="baseResultMap">
+        SELECT
+        <include refid="baseSql"/>
+        FROM t_user
+        <where>
+            <if test="name != null and name != ''">
+                name=#{name}
+            </if>
+        </where>
+    </select>
+</mapper>
