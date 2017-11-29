@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 import ysq.com.app.Base.BaseService;
 import ysq.com.app.mapper.UserMapper;
 import ysq.com.app.pojo.User;
+import ysq.com.app.redis.RedisClient;
 import ysq.com.app.service.UserService;
 
 import java.util.List;
@@ -21,11 +22,18 @@ public class UserServiceImpl extends BaseService implements UserService {
     @Autowired
     UserMapper userMapper;
 
+    @Autowired
+    RedisClient redis;
+
     @Override
     public List<User> findByName(String name) {
         log.info("分页查询user");
-        PageHelper.startPage(1, 4);
-        List<User> list = userMapper.findByName(name);
+        List<User> list = redis.get("test", "userList");
+        if (null == list) {
+            PageHelper.startPage(1, 4);
+            list = userMapper.findByName(name);
+            redis.set("test", "userList", list);
+        }
         return list;
     }
 
