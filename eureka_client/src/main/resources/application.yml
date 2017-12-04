@@ -5,5 +5,13 @@ eureka:
 server:
   port: 8762
 spring:
+  zipkin:
+    base-url: http://localhost:9411
   application:
     name: service-hi
+  #rabbitmq配置
+  rabbitmq:
+    host: 10.10.8.67
+    port: 5672
+    username: yeyang
+    password: yeyang_1

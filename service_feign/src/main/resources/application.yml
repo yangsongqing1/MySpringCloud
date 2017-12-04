@@ -5,13 +5,17 @@ eureka:
 server:
   port: 8765
 spring:
-  sleuth:
-    sampler:
-      percentage: 1.0
   zipkin:
     base-url: http://localhost:9411
   application:
     name: service-feign
+  #rabbitmq配置
+  rabbitmq:
+    host: 10.10.8.67
+    port: 5672
+    username: yeyang
+    password: yeyang_1
+
 feign:
   hystrix:
     enabled: true

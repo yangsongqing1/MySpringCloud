@@ -7,3 +7,26 @@ server:
 spring:
   application:
     name: zipkin-server
+  sleuth:
+    enabled: false #不使用sleuth
+#    sampler:
+#          percentage: 1.0
+# rabbitmq配置
+  rabbitmq:
+    host: 10.10.8.67
+    port: 5672
+    username: yeyang
+    password: yeyang_1
+
+#表示zipkin数据存储方式是elasticsearch
+zipkin:
+  storage:
+    StorageComponent: elasticsearch
+    type: elasticsearch
+    elasticsearch:
+      cluster: elktest
+      hosts: 10.10.8.67:9300
+      max-requests: 64
+      index: zipkin
+      index-shards: 5
+      index-replicas: 1
