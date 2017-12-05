@@ -20,8 +20,8 @@ public class HiController {
 
     @RequestMapping("/hi")
     public String home(@RequestParam String name) {
-        log.error("log is print!");
-//        throw new RuntimeException("a error！");
+        log.info("来自天空的日志信息!");
+//        throw new RuntimeException("来自天空的异常信息");
         return "hi " + name + ",i am from port:" + port;
     }
 }

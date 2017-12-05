@@ -27,6 +27,7 @@ zipkin:
       cluster: elktest
       hosts: 10.10.8.67:9300
       max-requests: 64
+      #在kibana中的index
       index: zipkin
       index-shards: 5
       index-replicas: 1
