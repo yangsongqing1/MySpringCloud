@@ -13,4 +13,6 @@ public interface UserService {
     List<User> findByName(String name);
 
     List<User> findAll();
+
+    void lockTest();
 }

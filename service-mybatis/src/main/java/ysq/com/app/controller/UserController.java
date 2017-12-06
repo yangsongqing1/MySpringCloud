@@ -29,4 +29,9 @@ public class UserController {
     public List<User> findAll() {
         return userService.findAll();
     }
+
+    @RequestMapping(value = "/lockTest", method = RequestMethod.GET)
+    public void lockTest() {
+        userService.lockTest();
+    }
 }

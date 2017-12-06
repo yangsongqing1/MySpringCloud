@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
+ * https://www.cnblogs.com/hunttown/p/6768864.html kibana界面操作
  * https://www.elastic.co/downloads
  * logstash,elasticsearch,kibana三件套
  */
