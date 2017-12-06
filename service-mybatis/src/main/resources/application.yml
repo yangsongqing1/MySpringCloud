@@ -37,3 +37,7 @@ spring:
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: ysq.com.app.pojo
+
+#log配置
+logging:
+  file: log.log
