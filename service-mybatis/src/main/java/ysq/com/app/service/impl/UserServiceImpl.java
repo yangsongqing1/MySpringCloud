@@ -3,14 +3,13 @@ package ysq.com.app.service.impl;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ysq.com.app.Base.BaseService;
+import ysq.com.app.base.BaseService;
 import ysq.com.app.mapper.UserMapper;
 import ysq.com.app.pojo.User;
 import ysq.com.app.redis.DistributedLock;
 import ysq.com.app.redis.RedisClient;
 import ysq.com.app.service.UserService;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
